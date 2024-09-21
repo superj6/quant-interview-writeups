@@ -1,0 +1,30 @@
+\documentclass[10pt]{article}
+
+\usepackage[margin=1in]{geometry} 
+\usepackage{amsmath,amsthm,amssymb, graphicx, multicol, array}
+ 
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+ 
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\begin{document}
+
+\title{Greenbook Writeups}
+\author{Jason Gonzalez}
+\maketitle
+
+\begin{problem}{1}
+  Prove converges: 
+  $\sum_{0}^{\infty} \frac{b_{n}}{(a + b_{0} + b_{1} + \ldots + b_{n})^{3/2}}$
+\end{problem}
+
+\begin{proof}
+  Let $s_{n} = \sum_{i = 0}^{n} b_i$. 
+  Then proving $\sum_{0}^{\infty} \frac{b_{n}}{(a + s_{n})^{3/2}}$ converges.
+
+
+\end{proof}
+
+\end{document}
